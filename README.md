@@ -12,7 +12,7 @@ http://angular8springbootaws-env.eba-bdygg4gk.us-east-2.elasticbeanstalk.com/lis
 For easy way to embedded angular into springboot. there are some points:
 
 (1) On Visual Code (suppose you created angular app in Visual Code), build angular application as product into dist folder.
-    Or you can build it from springboot application folder after coping.
+    Or you can build it from springboot application folder after copying.
     
 (2) Add gulpfile into springboot root folder, and copy angular app root folder into springboot project src/maim/ folder.
     also, create static folder in src\main\resources of springboot project.
