@@ -28,6 +28,7 @@ For easy way to embedded angular into springboot. there are some points:
     "build-prod": "ng build --prod --deploy-url /" ( search "build": "ng build" and add it after this)
 
 (6) Run maven command:  clean install -X  ( or manually clean and Run:  install -X)
+    auto-created folder docker, root, node_modules
 
 (7) After created jar file, run it at local command console:   java -jar  yourjarfile, and open http://localhost:5000/
     If you see error, just check/compare my application files or google it. It should work. 
