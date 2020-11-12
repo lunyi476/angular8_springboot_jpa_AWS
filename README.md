@@ -12,7 +12,8 @@ http://angular8springbootaws-env.eba-bdygg4gk.us-east-2.elasticbeanstalk.com/lis
 For easy way to embedded angular into springboot. there are some points:
 
 (1) On Visual Code (suppose you created angular app in Visual Code), build angular application as product into dist folder.
-
+    Or you can build it from springboot application folder after coping.
+    
 (2) Add gulpfile into springboot root folder, and copy angular app root folder into springboot project src/maim/ folder.
     also, create static folder in src\main\resources of springboot project.
     
@@ -28,9 +29,8 @@ For easy way to embedded angular into springboot. there are some points:
 
 (6) Run maven command:  clean install -X  ( or manually clean and Run:  install -X)
 
-(7) After created jar file, run it at local command console:   java -jar  yourjarfile, and run http://localhost:5000/
-
-If you see error, just check/compare my application files or google it. It should work. 
+(7) After created jar file, run it at local command console:   java -jar  yourjarfile, and open http://localhost:5000/
+    If you see error, just check/compare my application files or google it. It should work. 
 
 (8) Finally, deploy it into AWS Elastic Beanstalk (create free account and go to "Elastic Beanstalk Console", create new environment
     and add new instance by uploading jar file into it. AWS will take care of port and url by giving you a link)
