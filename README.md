@@ -23,12 +23,12 @@ For easy way to embedded angular into springboot. there are some points:
     Spring app port points to 5000 (or others, 5000 is default in AWS. So pointing to 5000). Angular does not 
     has its own port (such as: 4200) because it is embedded in springboot.
     
-(5) In package.json, you may need to add (built files direct under dist folder, this related images search path):   
+(5) In package.json, you may need to add (built files direct under dist folder, this affects images search path):   
     "build-prod": "ng build --prod --deploy-url /" ( search "build": "ng build" and add it after this)
 
 (6) Run maven command:  clean install -X  ( or manually clean and Run:  install -X)
 
-(7) After created jar file, run it at local command console:   java -jar  yourjarfile, adn run http://localhost:5000/
+(7) After created jar file, run it at local command console:   java -jar  yourjarfile, and run http://localhost:5000/
 
 If you see error, just check/compare my application files or google it. It should work. 
 
