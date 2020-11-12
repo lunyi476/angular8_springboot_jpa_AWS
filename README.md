@@ -4,7 +4,9 @@ This project embedded angular8 app into springboot and deploy it into AWS Elasti
 It is like simplified Microservice and REST application.
 
 http://angular8springbootaws-env.eba-bdygg4gk.us-east-2.elasticbeanstalk.com/
+
 http://angular8springbootaws-env.eba-bdygg4gk.us-east-2.elasticbeanstalk.com/listquotesxml
+
 http://angular8springbootaws-env.eba-bdygg4gk.us-east-2.elasticbeanstalk.com/listquotesjson
 
 For easy way to embedded angular into springboot. there are some points:
